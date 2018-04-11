@@ -1,0 +1,317 @@
+*{
+  transition: all 1s;
+}
+
+body{
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+/*start form layout*/
+.login{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.login h2{
+  color: #09c;
+}
+.line
+{
+  width: 20%;
+  height: 3px;
+  background-color: #09c;
+  margin: 9px auto;
+}
+.login input{
+  margin-bottom: 15px;
+}
+.login .form-control{
+  background-color: #e5e5e5;
+}
+.login .btn-block{
+  background-color: #008dda;
+  border-color: #008dda;
+}
+/*end form layout*/
+
+/*start navbar style*/
+.navbar
+{
+  margin:0px;
+  margin-bottom:0px;
+  border:0px;
+  border-radius: 0px;
+  font-size:16px !important;
+
+}
+.navbar-inverse
+{
+  background-color: rgba(0,0,0,0.6);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+{
+  border-color:transparent;
+}
+.navbar-brand
+{
+    color:#fff !important;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+.navbar-brand:hover
+{
+  transform: scale(1.2,1.2);
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+  color:#fff !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    color:#5e84d2 !important;
+    transform: scale(1.1,1.1);
+}
+.dropdown-menu{
+  min-width: 180px;
+  padding: 0;
+  font-size: 1em;
+  border: none;
+}
+.dropdown-menu li >a{
+  padding: 10px
+}
+.dropdown-menu > li > a:hover{
+    background-color: #4267b2;
+    color: #fff;
+}/*end navbar style*/
+
+/*start Member css*/
+
+h1{
+  color: #09c;
+  font-size: 55px;
+  margin: 20px 0px;
+}
+.c
+{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+  .main-table{
+    -webkit-box-shadow: 0 3px 17px #ccc;
+    -moz-box-shadow: 0 3px 17px #ccc;
+    box-shadow: 0 3px 17px #ccc;
+    box-sizing: border-box;
+  }
+  .main-table td{
+    background-color: #fff;
+    vertical-align: middle !important;
+  }
+.main-table tr:first-child td{
+  color: #01b8da;
+  background-color: #282830;
+}
+ table tr:hover td
+ {
+  background-color: #AAA;
+ }
+.main-table .btn
+{
+  padding: 5px 10px;
+}
+.main-table .btn-success
+{
+    margin-left: 5px;
+}
+.main-table i
+{
+  position: relative;
+top: 1px;
+left: -3px;
+}
+
+/*end Member css*/
+
+/*start dashboard style*/
+#parent{
+    background-color: #fff;
+    height: 100%;
+}
+.home .stat
+{
+    background-color: #EEE;
+    padding: 20px;
+    color: #fff;
+    font-size: 15px;
+   border-radius:15px;
+    position: relative;
+    overflow: hidden
+}
+.home .stat span
+{
+    font-size: 60px;
+    display: block;
+}
+.home .st-member
+{
+    background-color: #30336b;
+}
+.home .stat .info
+{
+    float: right;
+}
+.home .stat i
+{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    font-size: 80px
+    
+}
+.home .st-member a,.home .st-item a ,.home .st-coment a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.home .st-pendeing
+{
+    background-color: #535c68;
+}
+.home .st-pendeing a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.home .st-item
+{
+    background-color: #22a6b3;
+}
+.home .st-coment
+{
+    background-color: #ff7675;
+}
+.seconde
+{
+    margin-top: 30px;
+}
+.users li {
+  padding: 5px 0;
+}
+
+/*end dashboard style*/
+
+
+
+/*start CATIGORY style*/
+.add{
+position: relative;
+top: 0px;
+left: -3px;
+}
+.checks span
+{
+  margin-right: 9px;
+}
+.catigories .panel-body
+{
+
+  padding: 0;
+}
+.catigories .panel-heading
+{
+  color: #222f3e;
+}
+.catigories .cat
+{
+  position: relative;
+  overflow: hidden;
+  padding: 15px;
+}
+.catigories .cat:hover
+{
+  background-color: #ccc;
+}
+.catigories .cat h3
+{
+  margin: 0;
+  cursor: pointer;
+  color: #6A6A6A;
+  font-weight: bold;
+}
+.catigories .cat p
+{
+  margin-top: 10px
+}
+.catigories .cat  .btns{
+  padding: 3px 8px;
+}
+.catigories .cat .hidden-btns{
+  -webkit-transition : all 0.5s ease-in-out;
+  position: absolute;
+  top: 10px;
+  right: -150px;
+}
+.catigories .cat .hidden-btns i
+{
+  position: relative;
+   top: 0px;
+  left: -3px;
+}
+.catigories .cat:hover .hidden-btns
+{
+  right: 10px;
+}
+.catigories .cat .comnt{
+  color: #fff;
+background-color: #130f40;
+padding: 3px 9px;
+margin-right: 6px;
+border-radius: 9px;
+}
+.catigories .cat .ads{
+color: #fff;
+background-color:#f0932b;
+padding: 3px 9px;
+margin-right: 6px;
+border-radius: 9px;
+}
+.catigories .cat .vis{
+color: #fff;
+background-color: #eb4d4b;
+padding: 3px 9px;
+margin-right: 6px;
+border-radius: 9px;
+}
+.catigories .cat:last-child hr{
+  display: none;
+}
+.catigories .active
+{
+  
+  color: #130f40
+}
+.catigories .option span
+{
+  cursor: pointer;
+  padding: 3px 2px;
+  font-weight: bold;
+}
+/*end CATIGORY style*/
+
+.par .comnt-boxx
+{
+
+    max-width: 354px;
+    height: 44px;
+    max-height: 44px;
+    overflow: auto;
+}
